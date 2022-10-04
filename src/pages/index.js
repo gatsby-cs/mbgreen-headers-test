@@ -1,4 +1,5 @@
-import * as React from "react"
+import React from "react"
+import { Link } from 'gatsby'
 
 const pageStyles = {
   color: "#232129",
@@ -134,6 +135,9 @@ const IndexPage = () => {
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time. 😎
+      </p>
+        <p style={paragraphStyles}>
+        Go to <Link to="./page">page</Link> to see another page. 
       </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
